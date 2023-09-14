@@ -1,0 +1,33 @@
+imageType:
+  Original: {}
+  Wavelet: {}
+  LBP2D: {}
+
+featureClass:
+  shape2D:
+  firstorder:
+  glcm:
+  glrlm:
+  glszm:
+  gldm:
+  ngtdm:
+
+
+setting:
+  # Normalization:
+
+  # Resampling:
+  interpolator: 'sitkBSpline'
+  resampledPixelSpacing: [1, 1, 0]
+  
+  force2D: true
+  force2Ddimension: 0  
+
+
+  # Image discretization:
+  binWidth: 25
+
+  # first order specific settings:
+  voxelArrayShift: 1000
+  label: 1
+
